@@ -1,13 +1,26 @@
+import { useEffect, useState } from 'react';
+
 type ReactProgressBarType = {
-	progress: number;
-	width: number;
+	progress?: number;
+	width?: number;
 	style?: object;
 	color?: string;
 };
 const ReactProgressBar = (props: ReactProgressBarType) => {
-	let width = props.width || 400;
-	let progress = props.progress || 0;
-	let color = props.color || 'blue';
+	const [width, setWidth] = useState(props.width || 300);
+	const [progress, setProgress] = useState(props.progress ?? 50);
+	const [color, setColor] = useState(props.color || 'blue');
+
+	useEffect(() => {
+		setProgress(props.progress ?? 50);
+	}, [props.progress]);
+	useEffect(() => {
+		setWidth(props.width || 300);
+	}, [props.width]);
+	useEffect(() => {
+		setColor(props.color || 'blue');
+	}, [props.color]);
+
 	return (
 		<div
 			style={{
@@ -24,7 +37,6 @@ const ReactProgressBar = (props: ReactProgressBarType) => {
 				lineHeight: '20px',
 				boxSizing: 'border-box',
 				backgroundColor: 'white',
-				margin: 'auto',
 				color: 'black',
 				...props.style,
 			}}
@@ -52,7 +64,7 @@ const ReactProgressBar = (props: ReactProgressBarType) => {
 						zIndex: 1,
 					}}
 				>
-					{props.progress}%
+					{progress}%
 				</span>
 			</div>
 			<span
@@ -64,7 +76,7 @@ const ReactProgressBar = (props: ReactProgressBarType) => {
 					zIndex: 1,
 				}}
 			>
-				{props.progress}%
+				{progress}%
 			</span>
 		</div>
 	);

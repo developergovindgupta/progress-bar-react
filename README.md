@@ -1,46 +1,61 @@
-# Getting Started with Create React App
+# React Progress Bar
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A React Component that show processing of actions.
 
-## Available Scripts
+![](./ReactProgressBar.png)
 
-In the project directory, you can run:
+## Demo
 
-### `yarn start`
+[codesandbox](https://codesandbox.io/s/demo-react-progress-bar-3n5iyp)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+[ghpages-example](https://developergovindgupta.github.io/react-progress-bar/)
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+[github-sourcecode](https://github.com/developergovindgupta/react-progress-bar)
 
-### `yarn test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## How to install
 
-### `yarn build`
+    npm install react-progress-bar
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## How to import
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+    import ReactProgressBar from "react-progress-bar";
 
-### `yarn eject`
+## How to use
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+    <ReactProgressBar progress={progressValue} width={300} />
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Props
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+|property|type|default value|Description|
+|--|--|--|--|
+|width|Number|300|width of progress bar in pixcel.|
+|progress|Number|50|progressValue that shows in how much action is processed|
+|color|String|'blue'|any valid color value of progress bar|
+|style|Object||any style that you want to override of progress bar|
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+<hr/>
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Demo
+
+[codesandbox](https://codesandbox.io/s/demo-react-progress-bar-3n5iyp)
+
+[ghpages-example](https://developergovindgupta.github.io/react-progress-bar/)
+
+[github-sourcecode](https://github.com/developergovindgupta/react-progress-bar)
+
+
+
+
+<hr/>
+
+# License Free to use
+
+# Author
+
+## developergovindgupta (Govind Prasad Gupta)
+
+## Email : govindprasadguptamca@gmail.com 
