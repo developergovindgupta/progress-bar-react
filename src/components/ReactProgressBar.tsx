@@ -1,15 +1,17 @@
-import { useEffect, useState } from 'react';
+import React, { useEffect, useState } from 'react';
 
 type ReactProgressBarType = {
 	progress?: number;
 	width?: number;
 	style?: object;
 	color?: string;
+	backgroundColor?: string;
 };
 const ReactProgressBar = (props: ReactProgressBarType) => {
 	const [width, setWidth] = useState(props.width || 300);
 	const [progress, setProgress] = useState(props.progress ?? 50);
 	const [color, setColor] = useState(props.color || 'blue');
+	const [backgroundColor, setBackgroundColor] = useState(props.backgroundColor || 'white');
 
 	useEffect(() => {
 		setProgress(props.progress ?? 50);
@@ -20,6 +22,9 @@ const ReactProgressBar = (props: ReactProgressBarType) => {
 	useEffect(() => {
 		setColor(props.color || 'blue');
 	}, [props.color]);
+	useEffect(() => {
+		setBackgroundColor(props.backgroundColor || 'white');
+	}, [props.backgroundColor]);
 
 	return (
 		<div
@@ -36,14 +41,14 @@ const ReactProgressBar = (props: ReactProgressBarType) => {
 				height: '24px',
 				lineHeight: '20px',
 				boxSizing: 'border-box',
-				backgroundColor: 'white',
+				background: `${backgroundColor}`,
 				color: 'black',
 				...props.style,
 			}}
 		>
 			<div
 				style={{
-					backgroundColor: `${color}`,
+					background: `${color}`,
 					position: 'absolute',
 					left: '0px',
 					top: '0px',
