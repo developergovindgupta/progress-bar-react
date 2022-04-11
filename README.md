@@ -2,7 +2,7 @@
 
 A React Component that show processing of actions.
 
-![](./ReactProgressBar.png)
+![](./ProgressBarReact.png)
 
 ## Demo
 
@@ -24,7 +24,7 @@ A React Component that show processing of actions.
 
 ## How to use
 
-    <ReactProgressBar progress={progressValue} width={300} />
+    <ProgressBarReact progress={progressValue} width={300} />
 
 ## Props
 
