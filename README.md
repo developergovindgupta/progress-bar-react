@@ -1,4 +1,4 @@
-# React Progress Bar
+# Progress-Bar-React
 
 A React Component that show processing of actions.
 
@@ -8,19 +8,19 @@ A React Component that show processing of actions.
 
 [codesandbox](https://codesandbox.io/s/demo-react-progress-bar-3n5iyp)
 
-[ghpages-example](https://developergovindgupta.github.io/react-progress-bar/)
+[ghpages-example](https://developergovindgupta.github.io/progress-bar-react/)
 
-[github-sourcecode](https://github.com/developergovindgupta/react-progress-bar)
+[github-sourcecode](https://github.com/developergovindgupta/progress-bar-react)
 
 
 ## How to install
 
-    npm install react-progress-bar
+    npm install progress-bar-react
 
 
 ## How to import
 
-    import ReactProgressBar from "react-progress-bar";
+    import ProgressBarReact from "progress-bar-react";
 
 ## How to use
 
@@ -44,9 +44,10 @@ A React Component that show processing of actions.
 
 [codesandbox](https://codesandbox.io/s/demo-react-progress-bar-3n5iyp)
 
-[ghpages-example](https://developergovindgupta.github.io/react-progress-bar/)
+[ghpages-example](https://developergovindgupta.github.io/progress-bar-react/)
 
-[github-sourcecode](https://github.com/developergovindgupta/react-progress-bar)
+[github-sourcecode](https://github.com/developergovindgupta/progress-bar-react)
+
 
 
 

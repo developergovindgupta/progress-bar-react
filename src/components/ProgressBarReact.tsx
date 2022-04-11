@@ -1,13 +1,13 @@
 import React, { useEffect, useState } from 'react';
 
-type ReactProgressBarType = {
+type ProgressBarReactType = {
 	progress?: number;
 	width?: number;
 	style?: object;
 	color?: string;
 	backgroundColor?: string;
 };
-const ReactProgressBar = (props: ReactProgressBarType) => {
+const ProgressBarReact = (props: ProgressBarReactType) => {
 	const [width, setWidth] = useState(props.width || 300);
 	const [progress, setProgress] = useState(props.progress ?? 50);
 	const [color, setColor] = useState(props.color || 'blue');
@@ -87,4 +87,4 @@ const ReactProgressBar = (props: ReactProgressBarType) => {
 	);
 };
 
-export default ReactProgressBar;
+export default ProgressBarReact;
