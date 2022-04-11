@@ -6,7 +6,7 @@ A React Component that show processing of actions.
 
 ## Demo
 
-[codesandbox](https://codesandbox.io/s/demo-react-progress-bar-3n5iyp)
+[codesandbox](https://codesandbox.io/s/demo-progress-bar-react-3n5iyp)
 
 [ghpages-example](https://developergovindgupta.github.io/progress-bar-react/)
 
@@ -42,7 +42,7 @@ A React Component that show processing of actions.
 
 ## Demo
 
-[codesandbox](https://codesandbox.io/s/demo-react-progress-bar-3n5iyp)
+[codesandbox](https://codesandbox.io/s/demo-progress-bar-react-3n5iyp)
 
 [ghpages-example](https://developergovindgupta.github.io/progress-bar-react/)
 
