@@ -1,30 +1,30 @@
-# Progress-Bar-React
+# Progress-Bar-React-UI
 
-A React Component that show processing of actions.
+A React Component that show processing of actions as progress bar.
 
-![](./ProgressBarReact.png)
+![](./ProgressBarReactUI.png)
 
 ## Demo
 
-[codesandbox](https://codesandbox.io/s/demo-progress-bar-react-3n5iyp)
+[codesandbox](https://codesandbox.io/s/demo-progress-bar-react-ui-3n5iyp)
 
-[ghpages-example](https://developergovindgupta.github.io/progress-bar-react/)
+[ghpages-example](https://developergovindgupta.github.io/progress-bar-react-ui/)
 
-[github-sourcecode](https://github.com/developergovindgupta/progress-bar-react)
+[github-sourcecode](https://github.com/developergovindgupta/progress-bar-react-ui)
 
 
 ## How to install
 
-    npm install progress-bar-react
+    npm install progress-bar-react-ui
 
 
 ## How to import
 
-    import ProgressBarReact from "progress-bar-react";
+    import ProgressBar from "progress-bar-react-ui";
 
 ## How to use
 
-    <ProgressBarReact progress={progressValue} width={300} />
+    <ProgressBar progress={progressValue} width={300} />
 
 ## Props
 
@@ -42,11 +42,11 @@ A React Component that show processing of actions.
 
 ## Demo
 
-[codesandbox](https://codesandbox.io/s/demo-progress-bar-react-3n5iyp)
+[codesandbox](https://codesandbox.io/s/demo-progress-bar-react-ui-3n5iyp)
 
-[ghpages-example](https://developergovindgupta.github.io/progress-bar-react/)
+[ghpages-example](https://developergovindgupta.github.io/progress-bar-react-ui/)
 
-[github-sourcecode](https://github.com/developergovindgupta/progress-bar-react)
+[github-sourcecode](https://github.com/developergovindgupta/progress-bar-react-ui)
 
 
 

@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import logo from './logo.svg';
 import './App.css';
-import ProgressBarReact from './components/ProgressBarReact';
+import ProgressBar from './components/ProgressBarReactUI';
 
 const App = () => {
 	const [progress, setProgress] = useState(50);
@@ -9,13 +9,13 @@ const App = () => {
 		<div className='App'>
 			<header className='App-header'>
 				<img src={logo} className='App-logo' alt='logo' />
-				<p>Demo : progress-bar-react</p>
-				<a className='App-link' href='https://reactjs.org' target='_blank' rel='noopener noreferrer'>
-					Learn React
+				<p>Demo : progress-bar-react-ui</p>
+				<a className='App-link' href='https://codesandbox.io/s/demo-progress-bar-react-ui-3n5iyp' target='_blank' rel='noopener noreferrer'>
+					SourceCode
 				</a>
 			</header>
 			<div style={{ width: '400px', maxWidth: '100vw', height: 'calc(100vh - 70px)', margin: 'auto', display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center' }}>
-				<ProgressBarReact progress={progress} width={300} />
+				<ProgressBar progress={progress} width={300} />
 				<hr style={{ width: '100%', margin: '20px' }} />
 				<span>Set Progressbar value</span>
 				<hr style={{ width: '100%', margin: '20px' }} />

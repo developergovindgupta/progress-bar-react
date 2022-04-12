@@ -1,8 +1,8 @@
 {
-	"name": "progress-bar-react",
-	"version": "0.1.0",
+	"name": "progress-bar-react-ui",
+	"version": "1.0.1",
 	"private": true,
-	"homepage": "https://developergovindgupta.github.io/progress-bar-react",
+	"homepage": "https://developergovindgupta.github.io/progress-bar-react-ui",
 	"dependencies": {
 		"@testing-library/jest-dom": "^5.14.1",
 		"@testing-library/react": "^12.0.0",
