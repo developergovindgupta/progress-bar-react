@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/progress-bar-react/static/css/main.606c9cc1.css",
-    "main.js": "/progress-bar-react/static/js/main.714328af.js",
-    "static/js/787.a0cbd3f8.chunk.js": "/progress-bar-react/static/js/787.a0cbd3f8.chunk.js",
-    "static/media/logo.svg": "/progress-bar-react/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
-    "index.html": "/progress-bar-react/index.html",
-    "main.606c9cc1.css.map": "/progress-bar-react/static/css/main.606c9cc1.css.map",
-    "main.714328af.js.map": "/progress-bar-react/static/js/main.714328af.js.map",
-    "787.a0cbd3f8.chunk.js.map": "/progress-bar-react/static/js/787.a0cbd3f8.chunk.js.map"
+    "main.css": "/progress-bar-react-ui/static/css/main.606c9cc1.css",
+    "main.js": "/progress-bar-react-ui/static/js/main.1deed26c.js",
+    "static/js/787.53ce9c87.chunk.js": "/progress-bar-react-ui/static/js/787.53ce9c87.chunk.js",
+    "static/media/logo.svg": "/progress-bar-react-ui/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/progress-bar-react-ui/index.html",
+    "main.606c9cc1.css.map": "/progress-bar-react-ui/static/css/main.606c9cc1.css.map",
+    "main.1deed26c.js.map": "/progress-bar-react-ui/static/js/main.1deed26c.js.map",
+    "787.53ce9c87.chunk.js.map": "/progress-bar-react-ui/static/js/787.53ce9c87.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.606c9cc1.css",
-    "static/js/main.714328af.js"
+    "static/js/main.1deed26c.js"
   ]
 }
