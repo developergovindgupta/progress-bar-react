@@ -15,7 +15,13 @@ const App = () => {
 				</a>
 			</header>
 			<div style={{ width: '400px', maxWidth: '100vw', height: 'calc(100vh - 70px)', margin: 'auto', display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center' }}>
+				<ProgressBar progress={progress} width={300} color='red' />
+				<br />
+				<ProgressBar progress={progress} width={300} color='green' />
+				<br />
 				<ProgressBar progress={progress} width={300} />
+				<br />
+				<ProgressBar progress={progress} width={300} color='linear-gradient(black, lime,black)' backgroundColor='linear-gradient(black, white,black)' />
 				<hr style={{ width: '100%', margin: '20px' }} />
 				<span>Set Progressbar value</span>
 				<hr style={{ width: '100%', margin: '20px' }} />
