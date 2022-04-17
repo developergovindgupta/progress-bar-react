@@ -6,12 +6,14 @@ type ProgressBarReactType = {
 	style?: object;
 	color?: string;
 	backgroundColor?: string;
+	className?: string;
 };
 const ProgressBarReact = (props: ProgressBarReactType) => {
 	const [width, setWidth] = useState(props.width || 300);
 	const [progress, setProgress] = useState(props.progress ?? 50);
 	const [color, setColor] = useState(props.color || 'blue');
 	const [backgroundColor, setBackgroundColor] = useState(props.backgroundColor || 'white');
+	const [className, setClassName] = useState(props.className || '');
 
 	useEffect(() => {
 		setProgress(props.progress ?? 50);
@@ -25,9 +27,13 @@ const ProgressBarReact = (props: ProgressBarReactType) => {
 	useEffect(() => {
 		setBackgroundColor(props.backgroundColor || 'white');
 	}, [props.backgroundColor]);
+	useEffect(() => {
+		setClassName(props.className || '');
+	}, [props.className]);
 
 	return (
 		<div
+			className={'progress-bar-react-ui ' + className}
 			style={{
 				width: `${width}px`,
 				border: 'solid 1px black',

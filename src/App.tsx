@@ -21,7 +21,7 @@ const App = () => {
 				<br />
 				<ProgressBar progress={progress} width={300} />
 				<br />
-				<ProgressBar progress={progress} width={300} color='linear-gradient(black, lime,black)' backgroundColor='linear-gradient(black, white,black)' />
+				<ProgressBar className='linear-progress-bar' progress={progress} width={300} color='linear-gradient(black, lime,black)' backgroundColor='linear-gradient(black, white,black)' />
 				<hr style={{ width: '100%', margin: '20px' }} />
 				<span>Set Progressbar value</span>
 				<hr style={{ width: '100%', margin: '20px' }} />
